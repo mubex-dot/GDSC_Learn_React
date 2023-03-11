@@ -15,21 +15,20 @@ function App() {
       <Header />
       <div className="container">
         <Routes>
-          <Route exact path="/"
-          element={
-            <>
-          <FeedbackForm />
-          <FeedbackList feedback={feedback} />
-          </>
-          }
+          <Route
+            exact
+            path="/"
+            element={
+              <>
+                <FeedbackForm />
+                <FeedbackList feedback={feedback} />
+              </>
+            }
           ></Route>
-       
-        <Route path="/about" element={<AboutPage/>}>
 
-        </Route>
-       
+          <Route path="/about" element={<AboutPage />}></Route>
         </Routes>
-        <AboutIconLink/>
+        <AboutIconLink />
       </div>
     </Router>
   );
