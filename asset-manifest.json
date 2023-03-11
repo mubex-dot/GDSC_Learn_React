@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GDSC_Learn_React/static/css/main.4a6ccb7d.css",
+    "main.js": "/GDSC_Learn_React/static/js/main.1785366f.js",
+    "index.html": "/GDSC_Learn_React/index.html",
+    "main.4a6ccb7d.css.map": "/GDSC_Learn_React/static/css/main.4a6ccb7d.css.map",
+    "main.1785366f.js.map": "/GDSC_Learn_React/static/js/main.1785366f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a6ccb7d.css",
+    "static/js/main.1785366f.js"
+  ]
+}
